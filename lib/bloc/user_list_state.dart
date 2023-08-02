@@ -1,4 +1,6 @@
-part of 'user_list_bloc.dart';
+//part of 'user_list_bloc.dart';
+
+import '../model/user.dart';
 
 abstract class UserListState{
   List<User> users;

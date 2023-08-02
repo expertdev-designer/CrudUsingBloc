@@ -16,9 +16,9 @@ class MyApp extends StatelessWidget {
     return MultiBlocProvider(
       providers: [BlocProvider(create: (context)=> UserListBloc())],
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         title: ' Demo',
         theme: ThemeData(
-
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),

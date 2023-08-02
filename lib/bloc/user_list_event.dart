@@ -1,6 +1,8 @@
-part of 'user_list_bloc.dart';
+//part of 'user_list_bloc.dart';
 
-@immutable
+//@immutable
+import '../model/user.dart';
+
 abstract class UserListEvent{}
 
 class AddUser extends UserListEvent{   // call- userListBloc(context).add(AddUser(user: user));
